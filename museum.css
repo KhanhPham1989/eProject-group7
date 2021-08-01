@@ -112,7 +112,7 @@ header #slides .carousel-inner{
 	100% {left:20%; }
 	
 } 
-/* contact */
+/* star contact page*/ 
 iframe{
 	display: block;
 	width: 100%;
@@ -209,8 +209,8 @@ hr.light {
 footer .focus {
 	line-height: 50px;
 }
-
-/* score */
+/* end contact page */
+/* star feedback page */
 .container {
 	position: relative;
 	width: 300px;
@@ -378,4 +378,4 @@ button{
 	
 	text-transform: uppercase;
 }
-/* END SCORE */
+/* end feedback page */
