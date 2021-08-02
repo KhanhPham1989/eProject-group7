@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Public</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
-    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    
-    <link rel="stylesheet" href="./museum.css">
-    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ani.css">
     <style>
         body {
-            background-image: url(world-3713445_640.png);
+            background-image: url(./IMG/IMG-Nghia/world.png);
             background-blend-mode: difference;
 
         }
@@ -54,11 +52,15 @@
             padding: 2px;
             width: 80px;
         }
+       
 
         .red {
             color: rgb(119, 22, 22);
             font-weight: bolder;
 
+        }
+        .red:hover{
+            font-size: x-large;
         }
 
         iframe {
@@ -124,7 +126,7 @@
 
         .divimage {
             text-align: center;
-            border: white solid;
+            
             margin-top: 2rem;
         }
 
@@ -133,7 +135,7 @@
             margin-left: 2rem;
         }
 
-        .ani {
+        /* .ani {
             width: 25px;
             height: 15px;
             border-radius: 20%;
@@ -155,8 +157,12 @@
                 top: 0px;
             }
 
-            
-        }
+            100% {
+                ;
+                left: 0px;
+                top: 0px;
+            }
+        } */
 
         img {
             width: 100%;
@@ -193,7 +199,7 @@
         } */
 
         .cata {
-            padding-left: 5rem;
+            padding-left: 4%;
             font-size: 2rem;
         }
         .ten{
@@ -214,80 +220,64 @@
              color: white;
             }
         
+
+        .btn-top {
+            bottom: 20px;
+            cursor: pointer;
+            padding: 0;
+            position: fixed;
+            right: 20px;
+            z-index: 9999;
+        }
+        .glyphicon-circle-arrow-up{
+            font-size: 5rem;
+            color:green;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <div>
-            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-                <div class="container-fluid">
-                    <a class="navbar-branch" href="#">
-                        <img src="./IMG/logo-comment/logo.jpg" alt="none" height="50">
-                    </a>
-                    <button class="navbar-toggler" title="none" type="button" data-toggle="collapse"
-                        data-target="#navbarResponsive">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active fa fa-home" href="index.html" > HOME </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fa fa-images" href="#"> GALERRY </a>
-                            </li>
-                            <li class="dropdown">
-                                <a class="dropdown-header fa fa-newspaper" data-toggle="dropdown"> MUSEUM </a>
-                                <ul class="dropdown-menu" style="background-color: rgba(82,64,120,0.9);">
-                                    <li class="nav-item"><a class="nav-link fa fa-address-book" href="Museum.html"> Public</a></li>
-                                    <li class="nav-item"><a class="nav-link fa fa-flag " href="in vietnam.html"> VIETNAM</a></li>
-                                    <li class="nav-item"><a class="nav-link fa fa-circle" href="on the world.html"> WORLD</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fa fa-comment" href="Feedback.html"> Feedback</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fa fa-mobile-alt" href="contact.html"> CONTACT US</a>
-                            </li>
-                        </ul>
-        
-                    </div>
-                </div>
-            </nav>
-            <!-- slider - Corousel -->
-            <div id="slides" class="carousel slide" data-ride="carousel">
-                <ul class="carousel-indicators">
-                    <li data-target="#slides" data-slide-to="0" class="active"></li>
-                    <li data-target="#slides" data-slide-to="1"></li>
-                    <li data-target="#slides" data-slide-to="2"></li>		
-                    <li data-target="#slides" data-slide-to="3"></li>
-                </ul>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./IMG/IMG-Hung/05-National Air and Space Museum/National Air and Space Museum (5).jpg">
-                        <div class="carousel-caption">
-                            <h1 class="display-2"></h1>
-                            <h3></h3>
-                            <!-- <button type="button" class="btn btn-outline-light btn-lg">
-                                VIEW TUTORIALS
-                            </button>
-                            <button type="button" class="btn btn-primary btn-lg">Get started</button> -->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./IMG/IMG-Hung/12-Vietnam Art Museum/Vietnam Art Museum (5).jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./IMG/IMG-Hung/14-Museum Alexandre Yersin/Museum Alexandre Yersin (7).jpg">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./IMG/IMG-Hung/19-Ho chi minh museum/Ho chi minh museum (1).jpg">
-                    </div>
-                </div>
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="logo" src="" alt=""></a>
             </div>
-            <br>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html"><span class="red">Home</span> </a></li>
+                    <li><a href="museum.html"><span class="red note">Museum</span></a></li>
+
+                    <!-- <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown"><span class="red">Museum</span> <b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="/eP/world.html"><span class="red">WORLD</span></a></li>
+                            <li><a href="/eP/vietnam.html"><span class="red">VIETNAM</span></a></li>
+                        </ul>
+                    </li> -->
+                    <li><a href="gallery.html"><span class="red">Gallery</span></a></li>
+                    <li><a href="aboutus.html"><span class="red">About us</span></a></li>
+                    <li><a href="contact.html"><span class="red">Contact us</span></a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="ani"></div>
+    </header>
     <div class="hea"></div>
     <section>
         <div class="container full">
@@ -298,12 +288,22 @@
 
             <div class="row">
                 <div class="col-md-2 cata">
-                    <h3>Categories</h3>
+
+                    <div class="bo">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="content">
+                          <h2>Categories </h2>  
+                        </div>  
+                    </div>
+                    <!-- <h3 >Categories</h3> -->
                     <hr>
 
                     <div>
                         <label>
-                            <input type="checkbox" value="wor" id="chk-cake" class="ck-cat" name="cat">
+                            <input type="checkbox" value="wor" id="chk-mu" >
                             On the world
                         </label>
                     </div>
@@ -350,7 +350,7 @@
 
                     <div>
                         <label>
-                            <input type="checkbox" value="vn" id="chk-cake2" class="c" name="cat">
+                            <input type="checkbox" value="vn" id="chk-mu2" class="c" name="cat">
                             Viet Nam
                         </label>
                     </div>
@@ -393,6 +393,7 @@
                 </div>
             </div>
         </div>
+        <a class="btn-top" title="Top" style="display: inline;"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
     </section>
     <footer>
 
@@ -457,11 +458,11 @@
             var dat1 = [];
             var dat2 = [];
             
-            $.getJSON("data.json", function (items) {
+            $.getJSON("./JSON/data.json", function (items) {
                 data1 = items;
 
             });
-            $.getJSON("data1.json", function (items1) {
+            $.getJSON("./JSON/data1.json", function (items1) {
                 data2 = items1;
 
                 data = data2.concat(data1);
@@ -469,15 +470,19 @@
             });
 
 
-
+            $(".btn-top").click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			})
+		    })
 
 
             // world
             $(".box").hide();
 
-            $("input[id=chk-cake]").click(function () {
-                let catss = $('input[id=chk-cake2]').prop('checked');
-                let cats = $("#chk-cake:checked").map(function () { return $(this).val() }).toArray().toString();
+            $("input[id=chk-mu]").click(function () {
+                let catss = $('input[id=chk-mu2]').prop('checked');
+                let cats = $("#chk-mu:checked").map(function () { return $(this).val() }).toArray().toString();
                 let subdata
                 if (cats.length == 0) {
                     if (catss == false) {
@@ -518,9 +523,9 @@
 
             $(".box2").hide();
 
-            $("input[id=chk-cake2]").click(function () {
-                let catss = $('input[id=chk-cake]').prop('checked');
-                let cats = $("#chk-cake2:checked").map(function () { return $(this).val() }).toArray().toString();
+            $("input[id=chk-mu2]").click(function () {
+                let catss = $('input[id=chk-mu]').prop('checked');
+                let cats = $("#chk-mu2:checked").map(function () { return $(this).val() }).toArray().toString();
                 let subdata
                 if (cats.length == 0) {
                     if (catss == false) {
@@ -568,17 +573,13 @@
 
 
 
-
-
-
-
         function displayImages(items) {
             let s = ``;
 
             $.each(items, function (k, v) {
 
                 s += ` <div class="col-sm-6 col-md-4 divimage" data-idsa="${v.ida}">
-                            <img src="h/${v.pic}" class="image">
+                            <img src="./IMG/IMG-Nghia/${v.pic}" class="image">
                             <p>
                             ${v.ten} <br>
 
@@ -599,17 +600,17 @@
              </div>
                 <div class="modal-body">
                     <div class="row ">
-                        <div class="col-md-4"><img src="h/${m.pic}"></div>
+                        <div class="col-md-4"><img src="./IMG/IMG-Nghia/${m.pic}"></div>
                         <div class="col-md-8 text-justify">${m.nd}</div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-md-8 text-justify">${m.nd1}</div>
-                        <div class="col-md-4"><img src="cake/${m.pic1}"></div>
+                        <div class="col-md-4"><img src="./IMG/IMG-Nghia\ 2/${m.pic1}"></div>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-4"><img src="cake/${m.pic2}"></div>
+                        <div class="col-md-4"><img src="./IMG/IMG-Nghia\ 2/${m.pic2}"></div>
                         <div class="col-md-8 text-justify">${m.nd2}</div>
                     </div> 
                 </div>
