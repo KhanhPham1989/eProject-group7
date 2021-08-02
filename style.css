@@ -199,8 +199,10 @@ hr.light {
 }
 .full-page h2{
 	padding: 30pt 0 20px 0;
+	font-size: 36pt;
 	text-align: center;
 }
 .full-page h3{
 	padding: 15pt 0 0 20px;
+	font-size: 28pt;
 }
