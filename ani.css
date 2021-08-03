@@ -1,15 +1,16 @@
+
+/* MUSEUM */
 #animated{
-    width:200px;
-    height:80px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
-    
     color:brown;
     text-align: center;
     position: relative;
     font-weight:bold;
-    font-size:4rem;
-    padding:10px;
+    /* font-size:3vw; */
+    font-size:3rem;
+    padding-bottom:10px;
     animation:
     xoay 6s 1,
     mau 3s infinite 6s;
@@ -21,8 +22,7 @@
         50% {transform: rotate(20deg);left: -40%;}   
         75% {transform: rotate(0deg);left:40%;}
         80% {transform: rotate(0deg);left:40%;color:greenyellow;}
-        100% {transform: rotate(-360deg);left:0px;}
-        
+        100% {transform: rotate(-360deg);left:0px;}  
     }
     @keyframes mau 
     {
@@ -31,13 +31,14 @@
         100% {color: brown;}
     } 
 
-    .content h2{ 
-      font-size:2.5rem;
-      font-family: 'Courier New', Courier, monospace;
-      font-weight: bolder;
-      margin-top: 12px;
-    }
 
+    /* Categories */
+    .content h2{ 
+      font-size:1.7rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      margin-top: 10px;
+    }
     .bo{
       display: block;
       position: relative;
@@ -127,3 +128,47 @@
       }
 
     } 
+
+    /* GALLERY */
+    .gradient-border {
+      width:200px;
+      height:80px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size:4rem;
+      font-weight: bold;
+      text-align: center;
+
+      background:white;
+      position: relative;
+      border-radius: var(--borderWidth);
+    }
+    .gradient-border:after {
+      content: '';
+      position: absolute;
+      height: 88px;
+      left: -4px;
+      top: -4px;
+      width: 208px;
+
+      background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+      border-radius: calc(2 * var(--borderWidth));
+      z-index: -1;
+      animation: animatedgradient 3s ease alternate infinite;
+      background-size: 300% 300%;
+    }
+    
+    
+    @keyframes animatedgradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
+    

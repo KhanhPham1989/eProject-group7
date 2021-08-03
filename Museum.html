@@ -7,107 +7,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museum</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="ani.css">
-    <style>
+    
+   
+
+    <style>    
+.navbar {
+	background-color: rgba(79, 159, 161, 0.815) !important;
+	position: fixed;
+	width: 100%;
+	height: 110px;
+}
+.navbar li a {
+    color: rgb(199, 196, 157) !important;
+	text-decoration: none;
+	margin: 0px 20px;
+	font-size: 20px;
+	text-indent: 1px;
+	
+}
+.navbar li a:hover {
+    color: rgb(221, 186, 109) !important;
+}
+header nav img {
+	height: 90px;
+}
+.dropdown:hover{
+	cursor: pointer;
+}
+.dropdown li :hover {
+	display: flex;
+	background-color: aqua;
+}
+header #slides .carousel-inner{
+	height: 500px;
+}
+.carousel-inner img {
+	width: 100%;
+}
+
+footer>.conntainer-fluid pt-3{
+	padding-bottom: 30px;
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+	background-color: #af9f9f;
+	color: #d8caca;
+    width: 100% !important;
+    margin: auto !important;
+}
+
+footer h5 {
+    font-size: 1.3rem;
+	color: honeydew;
+	font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+footer p, footer i {
+	font-style: normal;
+	font-weight: bold;
+	color: lavender;
+}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+}
+.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+}
+footer .focus {
+	line-height: 50px;
+}
+
+        .hea {
+            height: 10rem;
+        }
+
         body {
             background-image: url(./IMG/IMG-Nghia/world.png);
             background-blend-mode: difference;
-
         }
 
-        header {
-            position: fixed;
-            z-index: 10000;
-            width: 100%;
-
-        }
-
-        .hea {
-            height: 12rem;
-        }
-
-        .logo {
-            height: 100%;
-            margin: 0 auto 0 auto;
-
-        }
-
-        nav {
-            font-size: 2rem;
-            padding: 2rem;
-
-        }
-
-        .navbar {
-            background-color: lightgray;
-            padding-left: 5rem;
-            margin-bottom: 0;
-        }
-
-        .navbar-brand {
-            padding: 2px;
-            width: 80px;
-        }
-       
-
-        .red {
-            color: rgb(119, 22, 22);
-            font-weight: bolder;
-
-        }
-        .red:hover{
-            font-size: x-large;
-        }
-
-        iframe {
-            display: block;
-            width: 100%;
-            margin: 2rem auto 2rem auto;
-        }
-
-        footer {
-            background-color: rgb(119, 22, 22);
-            color: white;
-            padding: 2rem;
-            margin-top: 200px;
-
-        }
-
-        footer div {
-            text-align: center;
-        }
-
-        footer h2 {
-            font-weight: bold;
-        }
-
-        .get input {
-            width: 100%;
-        }
-
-        .get {
-            margin: 2rem;
-        }
-
-        .geth div {
-            margin-top: 1rem;
-        }
-
-        .bold {
-            font-weight: bolder;
-        }
-
-        .full {
-            width: 100%;
+     
+        .page-header{
+            margin-bottom: 50px;
         }
 
         .image {
             width: 70%;
-            padding: 1.5rem;
+            padding: 1rem;
             border: solid lightgray medium;
             display: block;
             margin: auto;
@@ -115,7 +115,7 @@
 
         .image:hover {
             width: 70%;
-            padding: 1.5rem;
+            padding: 1rem;
             border: solid gray medium;
             display: block;
             margin: auto;
@@ -126,81 +126,43 @@
 
         .divimage {
             text-align: center;
-            
             margin-top: 2rem;
+        }
+        .check input{
+            transform: scale(1.5);
+            margin-right: 10px;
+            
+        }
+        .box input{
+            transform: scale(1.5);
+            margin-right: 10px;
+            
+        }
+        .check{
+            font-weight: bold;
+            font-size: x-large;
+        }
+        .check:hover{
+            color: brown;
         }
 
         .box,
         .box2 {
             margin-left: 2rem;
+            font-size: x-large;
         }
-
-        /* .ani {
-            width: 25px;
-            height: 15px;
-            border-radius: 20%;
-            background-color: brown;
-            position: relative;
-            animation-name: example;
-            animation-duration: 6s;
-            animation-iteration-count: infinite;
-        }
-
-        @keyframes example {
-            0% {
-                left: 0px;
-                top: 0px;
-            }
-
-            50% {
-                left: 100%;
-                top: 0px;
-            }
-
-            100% {
-                ;
-                left: 0px;
-                top: 0px;
-            }
-        } */
 
         img {
             width: 100%;
         }
-
-        .modal-dialog {
-            width: 60%;
+        .modal-lg{
+            min-width: 60%;
         }
-
-        /* .center {
-            text-align: center;
-            font-weight: bolder;
-            color: brown;
-            font-size: 5rem;
-            animation-name: exa;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
- 
-
-        }
-
-        @keyframes exa {
-            0% {
-                color: chartreuse;
-            }
-
-            50% {
-                color: coral
-            }
-
-            100% {
-                color: brown;
-            }
-        } */
-
+       
         .cata {
             padding-left: 4%;
             font-size: 2rem;
+            margin-top: 50px;
         }
         .ten{
             color: brown;
@@ -208,17 +170,6 @@
             font-size: 2rem;
             font-weight: bold;
         }
-   
-
-        .fa:hover {
-            opacity: 0.7;
-        }
-        .fa-facebook {      
-            color: white;
-            }
-        .fa-twitter {   
-             color: white;
-            }
         
 
         .btn-top {
@@ -229,8 +180,8 @@
             right: 20px;
             z-index: 9999;
         }
-        .glyphicon-circle-arrow-up{
-            font-size: 5rem;
+        .fa-arrow-circle-up{
+            font-size: 3.5rem;
             color:green;
         }
     </style>
@@ -238,56 +189,54 @@
 
 <body>
     <header>
-
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-branch" href="#">
+                    <img src="./IMG/logo-comment/logo.png" alt="none">
+                </a>
+                <button class="navbar-toggler" title="none" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="logo" src="" alt=""></a>
-            </div>
-
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="home.html"><span class="red">Home</span> </a></li>
-                    <li><a href="museum.html"><span class="red note">Museum</span></a></li>
-
-                    <!-- <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown"><span class="red">Museum</span> <b
-                                class="caret"></b></a>
-                        <ul class="dropdown-menu">
-
-                            <li><a href="/eP/world.html"><span class="red">WORLD</span></a></li>
-                            <li><a href="/eP/vietnam.html"><span class="red">VIETNAM</span></a></li>
-                        </ul>
-                    </li> -->
-                    <li><a href="gallery.html"><span class="red">Gallery</span></a></li>
-                    <li><a href="aboutus.html"><span class="red">About us</span></a></li>
-                    <li><a href="contact.html"><span class="red">Contact us</span></a></li>
-
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                </ul>
-
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active fa fa-home" href="index.html" > HOME </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fa fa-images" href="#"> GALERRY </a>
+                        </li>
+                        <li class="dropdown d-inline-block">
+                            <a class="dropdown-header fa fa-newspaper" data-toggle="dropdown"> MUSEUM </a>
+                            <ul class="dropdown-menu " style="background-color: rgba(79, 159, 161, 0.815);">
+                                <li class="nav-item"><a class="nav-link fa fa-address-book" href="Museum.html"> PUBLIC</a></li>
+                                <li class="nav-item"><a class="nav-link fa fa-flag " href="in vietnam.html"> VIETNAM</a></li>
+                                <li class="nav-item"><a class="nav-link fa fa-circle" href="on the world.html"> WORLD</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fa fa-comment" href="Feedback.html"> FEEDBACK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fa fa-mobile-alt" href="contact.html"> CONTACT US</a>
+                        </li>
+                    </ul>
+    
+                </div>
             </div>
         </nav>
-        <div class="ani"></div>
+        
     </header>
     <div class="hea"></div>
     <section>
-        <div class="container full">
+        <div class="container-fluid padding">
 
             <div class="page-header">
                 <div id="animated">MUSEUMS</div>
             </div>
 
             <div class="row">
-                <div class="col-md-2 cata">
+                <div class="col-lg-2 cata">
 
                     <div class="bo">
                         <span></span>
@@ -298,10 +247,8 @@
                           <h2>Categories </h2>  
                         </div>  
                     </div>
-                    <!-- <h3 >Categories</h3> -->
-                    <hr>
-
-                    <div>
+                    <br>
+                    <div class="check">
                         <label>
                             <input type="checkbox" value="wor" id="chk-mu" >
                             On the world
@@ -348,7 +295,7 @@
 
                     </div>
 
-                    <div>
+                    <div class="check">
                         <label>
                             <input type="checkbox" value="vn" id="chk-mu2" class="c" name="cat">
                             Viet Nam
@@ -383,71 +330,70 @@
 
                 </div>
 
-                <div class="col-md-10">
+                <div class="col-lg-10">
                     <div class="row" id="muse">
 
-                        <!-- <div class="col-sm-6 col-md-4 divimage">
-                            <img src="/eP/cake/1.PNG" class="image">
-                        </div> -->
+                       
                     </div>
                 </div>
             </div>
         </div>
-        <a class="btn-top" title="Top" style="display: inline;"><span class="glyphicon glyphicon-circle-arrow-up"></span></a>
+    <!-- về đầu trang -->
+        <a class="btn-top" title="Top" style="display: inline;"><span class="fa fa-arrow-circle-up"></span></a>
+        
     </section>
+    <!-- footer -->
     <footer>
-
-        <div class="row">
-            <div class="col-md-4 ">
-                <h2>CONTACT US</h2>
-                <p><span class="glyphicon glyphicon-map-marker"> </span> 590 Cach Mang Thang Tam,District 3, Ho Chi Minh
-                    City</p>
-                <p>(Behind Cho Lon Electronics Supermarket)</p><br>
-                <p><span class="glyphicon glyphicon-earphone"> </span> (028) 888 888</p> <br>
-                <p><span class="glyphicon glyphicon-envelope"> </span> aptech.fpt@fe.edu.vn</p><br>
-                <p><span class="glyphicon glyphicon-globe"> </span> https://hkn.com</p>
-
-            </div>
-
-            <div class="col-md-4 ">
-                <h2>SERVICES</h2>
-                <P>Downloads informartion</P>
-                <p>How to travel</p>
-
-            </div>
-
-            <div class="col-md-4">
-                <h2>LINKS</h2>
-                <p>About us</p>
-                <p>Gallery</p>
-                <p>World Museum</p>
-                <p>VietNam Museum</p>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4" style="line-height: 50px;">
+                    <hr class="light">
+                    <a href="home.html"><h5>About us</h5></a>
+                    <hr class="light">
+                    <i class="fa fa-phone" aria-hidden="true"> 111-222-3333 </i>
+                    <address> <a href="mailto:support.hkn@gmail.com"><p class="bold">support@hkn.com</p></a></address>
+                    <i class="fa fa-street-view" aria-hidden="true"> 590 CMT8 street, Ward 11, District 3, HCM City</i>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Working hours</h5>
+                    <hr class="light">
+                    <div class="focus">
+                        <p class="fa fa-calendar-alt"> Monday-Friday: 8am - 5pm</p> <br>
+                        <p class="fa fa-calendar-plus"> Weekend: 8am - 12am</p>
+                        </div>  
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Services</h5>
+                    <hr class="light">
+                    <div class="focus">
+                    <p class="fa fa-weibo text-md-center"> Contact us </p> <br>
+                    <p class="fa fa-app-store text-md-center"> Mobile App </p> <br>
+                    <p class="fa fa-phone"> Onphone </p>
+                </div>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; HKN Group</h5>
+                </div>
             </div>
         </div>
     </footer>
+    <!-- end footer --> 
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog" style="margin-top: 10rem;">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
 
             <!-- Modal content-->
             <div class="modal-content">
-                <!-- <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-
-
-                </div>
-                <div class="modal-footer">
-                    <input type="button" class=" btn btn-success" value="Download">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div> -->
+                
             </div>
 
         </div>
     </div>
-
+    <!-- end Modal -->
     <script>
         $(document).ready(function () {
             var data = [];
@@ -475,8 +421,6 @@
 				scrollTop: 0
 			})
 		    })
-
-
             // world
             $(".box").hide();
 
@@ -572,13 +516,12 @@
         });
 
 
-
         function displayImages(items) {
             let s = ``;
 
             $.each(items, function (k, v) {
 
-                s += ` <div class="col-sm-6 col-md-4 divimage" data-idsa="${v.ida}">
+                s += ` <div class="col-md-6 col-lg-4 divimage" data-idsa="${v.ida}">
                             <img src="IMG/IMG-Nghia/${v.pic}" class="image">
                             <p>
                             ${v.ten} <br>
@@ -600,18 +543,18 @@
              </div>
                 <div class="modal-body">
                     <div class="row ">
-                        <div class="col-md-4"><img src="IMG/IMG-Nghia/${m.pic}"></div>
-                        <div class="col-md-8 text-justify">${m.nd}</div>
+                        <div class="col-lg-4"><img src="IMG/IMG-Nghia/${m.pic}"></div>
+                        <div class="col-lg-8 text-justify">${m.nd}</div>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-8 text-justify">${m.nd1}</div>
-                        <div class="col-md-4"><img src="IMG/IMG-Nghia\ 2/${m.pic1}"></div>
+                        <div class="col-lg-8 text-justify">${m.nd1}</div>
+                        <div class="col-lg-4"><img src="IMG/IMG-Nghia\ 2/${m.pic1}"></div>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-4"><img src="IMG/IMG-Nghia\ 2/${m.pic2}"></div>
-                        <div class="col-md-8 text-justify">${m.nd2}</div>
+                        <div class="col-lg-4"><img src="IMG/IMG-Nghia\ 2/${m.pic2}"></div>
+                        <div class="col-lg-8 text-justify">${m.nd2}</div>
                     </div> 
                 </div>
                 <div class="modal-footer">
