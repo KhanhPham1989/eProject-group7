@@ -128,16 +128,12 @@ footer .focus {
             text-align: center;
             margin-top: 2rem;
         }
-        .check input{
+        .check input,.box input,.box2 input{
             transform: scale(1.5);
             margin-right: 10px;
             
         }
-        .box input{
-            transform: scale(1.5);
-            margin-right: 10px;
-            
-        }
+    
         .check{
             font-weight: bold;
             font-size: x-large;
@@ -146,12 +142,21 @@ footer .focus {
             color: brown;
         }
 
+        .checkbox:hover{
+            color: chocolate;
+        }
+
         .box,
         .box2 {
             margin-left: 2rem;
             font-size: x-large;
         }
-
+        .check input:checked+span{
+            color: brown;
+        }
+        .checkbox input:checked+span{
+            color: chocolate;
+        }
         img {
             width: 100%;
         }
@@ -170,7 +175,6 @@ footer .focus {
             font-size: 2rem;
             font-weight: bold;
         }
-        
 
         .btn-top {
             bottom: 20px;
@@ -183,6 +187,13 @@ footer .focus {
         .fa-arrow-circle-up{
             font-size: 3.5rem;
             color:green;
+        }
+        .modal-body{
+            font-size: 1.2rem;
+        }
+        .modal-body b{
+            color: brown;
+            font-size: 1.5rem;
         }
     </style>
 </head>
@@ -251,7 +262,7 @@ footer .focus {
                     <div class="check">
                         <label>
                             <input type="checkbox" value="wor" id="chk-mu" >
-                            On the world
+                           <span>On the world</span> 
                         </label>
                     </div>
 
@@ -260,35 +271,35 @@ footer .focus {
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="aa" id="chk" name="mus">
-                                Asia
+                                <span>Asia</span>
                             </label>
                         </div>
 
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="au" id="chk" name="mus">
-                                Europe
+                                <span>Europe</span>
                             </label>
                         </div>
 
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="my" id="chk" name="mus">
-                                Americas
+                                <span>Americas</span>
                             </label>
                         </div>
 
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="phi" id="chk" name="mus">
-                                Africa
+                                <span>Africa</span>
                             </label>
                         </div>
 
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="uc" id="chk" name="mus">
-                                Australia
+                                <span>Australia</span>
                             </label>
                         </div>
 
@@ -298,7 +309,7 @@ footer .focus {
                     <div class="check">
                         <label>
                             <input type="checkbox" value="vn" id="chk-mu2" class="c" name="cat">
-                            Viet Nam
+                            <span>Viet Nam</span>
                         </label>
                     </div>
 
@@ -306,21 +317,21 @@ footer .focus {
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="bac" id="chk2" name="mus">
-                                In the Northern Vietnam
+                                <span>In the Northern Vietnam</span>
                             </label>
                         </div>
 
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="trung" id="chk2" name="mus">
-                                In the central of Vietnam
+                                <span>In the central of Vietnam</span>
                             </label>
                         </div>
 
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="nam" id="chk2" name="mus">
-                                In the Southern Vietnam
+                                <span>In the Southern Vietnam</span>
                             </label>
                         </div>
 
@@ -558,7 +569,7 @@ footer .focus {
                     </div> 
                 </div>
                 <div class="modal-footer">
-                    <input type="button" class=" btn btn-success" value="Download" >
+                    <a href="./pdf/${m.file}" id="download"><input type="button" class=" btn btn-success" value="Download"></a>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>    
             `;
