@@ -143,7 +143,7 @@
       background:white;
       position: relative;
       border-radius:10px;
-      animation: chay 5s linear;
+      animation: chay 10s linear;
     }
     .gradient-border:after {
       content: '';
@@ -157,7 +157,7 @@
       border-radius: 10px;
       z-index: -1;
       animation: animatedgradient 3s ease alternate infinite,
-      chay 5s linear;
+      chay 10s linear;
       background-size: 300% 300%;
     }
     
