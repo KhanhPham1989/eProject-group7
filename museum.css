@@ -38,6 +38,9 @@ h1, h2, h3 {
 .navbar li a:hover {
     color: rgb(221, 186, 109) !important;
 }
+header nav img {
+	height: 90px;
+}
 .dropdown:hover{
 	cursor: pointer;
 }
