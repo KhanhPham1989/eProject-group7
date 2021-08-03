@@ -13,9 +13,84 @@
 
     <link rel="stylesheet" href="./themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="ani.css">
+    <link rel="stylesheet" href="./ani.css">
 
     <style>
+
+.navbar {
+	background-color: rgba(79, 159, 161, 0.815) !important;
+	position: fixed;
+	width: 100%;
+	height: 110px;
+}
+.navbar li a {
+    color: rgb(199, 196, 157) !important;
+	text-decoration: none;
+	margin: 0px 20px;
+	font-size: 20px;
+	text-indent: 1px;
+	
+}
+.navbar li a:hover {
+    color: rgb(221, 186, 109) !important;
+}
+header nav img {
+	height: 90px;
+}
+.dropdown:hover{
+	cursor: pointer;
+}
+.dropdown li :hover {
+	display: flex;
+	background-color: aqua;
+}
+header #slides .carousel-inner{
+	height: 500px;
+}
+.carousel-inner img {
+	width: 100%;
+}
+
+footer>.conntainer-fluid pt-3{
+	padding-bottom: 30px;
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+	background-color: #af9f9f;
+	color: #d8caca;
+    width: 100% !important;
+    margin: auto !important;
+}
+
+footer h5 {
+    font-size: 1.3rem;
+	color: honeydew;
+	font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+footer p, footer i {
+	font-style: normal;
+	font-weight: bold;
+	color: lavender;
+}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+}
+.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+}
+footer .focus {
+	line-height: 50px;
+}
+
+
          body {
             background-image: url(./IMG/IMG-Nghia/world.png);
             background-blend-mode: difference;
@@ -55,7 +130,8 @@
         .so{
             display: flex;
             justify-content:center;
-            margin-top: 20px;
+            margin-top: 50px;
+            margin-bottom: 20px;
             
         }
         .btn-top {
@@ -70,11 +146,55 @@
             font-size: 3.5rem;
             color:green;
         }
+        .padding{
+            width: 90%;
+        }
+        .page-header{
+            margin-bottom: 50px;
+        }
     </style>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-branch" href="#">
+                    <img src="./IMG/logo-comment/logo.png" alt="none">
+                </a>
+                <button class="navbar-toggler" title="none" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active fa fa-home" href="index.html" > HOME </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fa fa-images" href="#"> GALERRY </a>
+                        </li>
+                        <li class="dropdown d-inline-block">
+                            <a class="dropdown-header fa fa-newspaper" data-toggle="dropdown"> MUSEUM </a>
+                            <ul class="dropdown-menu " style="background-color: rgba(79, 159, 161, 0.815);">
+                                <li class="nav-item"><a class="nav-link fa fa-address-book" href="Museum.html"> PUBLIC</a></li>
+                                <li class="nav-item"><a class="nav-link fa fa-flag " href="in vietnam.html"> VIETNAM</a></li>
+                                <li class="nav-item"><a class="nav-link fa fa-circle" href="on the world.html"> WORLD</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fa fa-comment" href="Feedback.html"> FEEDBACK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fa fa-mobile-alt" href="contact.html"> CONTACT US</a>
+                        </li>
+                    </ul>
     
+                </div>
+            </div>
+        </nav>
+        
+    </header>
     <div class="hea"></div>
     <section>
         <div  class="container-fluid padding">
@@ -94,6 +214,45 @@
         <a class="btn-top" title="Top" style="display: inline;"><span class="fa fa-arrow-circle-up"></span></a>
 
     </section>
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4" style="line-height: 50px;">
+                    <hr class="light">
+                    <a href="home.html"><h5>About us</h5></a>
+                    <hr class="light">
+                    <i class="fa fa-phone" aria-hidden="true"> 111-222-3333 </i>
+                    <address> <a href="mailto:support.hkn@gmail.com"><p class="bold">support@hkn.com</p></a></address>
+                    <i class="fa fa-street-view" aria-hidden="true"> 590 CMT8 street, Ward 11, District 3, HCM City</i>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Working hours</h5>
+                    <hr class="light">
+                    <div class="focus">
+                        <p class="fa fa-calendar-alt"> Monday-Friday: 8am - 5pm</p> <br>
+                        <p class="fa fa-calendar-plus"> Weekend: 8am - 12am</p>
+                        </div>  
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Services</h5>
+                    <hr class="light">
+                    <div class="focus">
+                    <p class="fa fa-weibo text-md-center"> Contact us </p> <br>
+                    <p class="fa fa-app-store text-md-center"> Mobile App </p> <br>
+                    <p class="fa fa-phone"> Onphone </p>
+                </div>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; HKN Group</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer --> 
     
     <script>
         let data = [];
