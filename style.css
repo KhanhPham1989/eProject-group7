@@ -54,6 +54,9 @@ p {
 .carousel-inner img {
 	width: 100%;
 }
+.nav-item {
+	font-family: sans-serif;
+}
 /* .carousel-caption {
 	position: absolute;
 	top: 50%;
