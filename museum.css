@@ -41,7 +41,7 @@ h1, h2, h3 {
 header nav img {
 	height: 90px;
 }
-.dropdown:hover{
+.dropdown{
 	cursor: pointer;
 }
 .dropdown li :hover {
