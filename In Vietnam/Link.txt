@@ -6,6 +6,7 @@ https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/Museum_Alexandre_Ye
 https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/Da_Nang_Museum_of_Cham_Sculpture.html
 https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/Hue_Royal_Fine_Arts_Museum.html
 https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/Vietnam_History_Museum.html
+https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/War_Remnants_Museum.html
 https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/Ho_chi_minh_museum.html
 https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/Ho_Chi_Minh_City_Museum.html
 
@@ -19,10 +20,31 @@ https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/War_Remnants_Museum
 
 
 Ha Noi Museum
-
+<div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../IMG/IMG-Hung/11-Ha Noi Museum/slides-1.jpg">
+                                <div class="carousel-caption">
+                                    <h1 class="display-2"></h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../IMG/IMG-Hung/11-Ha Noi Museum/slides-2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Ha Noi Museum
+                            </h4>
+                            <p class="card-text"></p>
+                            <a href="https://khanhpham1989.github.io/eProject-group7/In%20Vietnam/Ha_Noi_Museum.html"
+                                class="btn btn-outline-secondary" id="click">View more</a>
+                        </div>
 
 
 Vietnam Art Museum
+
 <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="../IMG/IMG-Hung/12-Vietnam Art Museum/slides-1.jpg">
@@ -47,6 +69,7 @@ Vietnam Art Museum
 
 
 Museum of Cultures of Vietnam's Ethnic Groups
+
 <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="../IMG/IMG-Hung/13-Museum of Cultures of Vietnam's Ethnic Groups/slides-1.jpg">
