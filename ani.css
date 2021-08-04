@@ -142,7 +142,7 @@
       text-align: center;
       background:white;
       position: relative;
-      border-radius:10px;
+      border-radius:6px;
       animation: chay 10s linear;
     }
     .gradient-border:after {
@@ -151,7 +151,7 @@
       height: 88px;
       left: -4px;
       top: -4px;
-      width: 228px;
+      width: 229px;
       
       background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
       border-radius: 10px;
@@ -163,15 +163,9 @@
     
     
     @keyframes animatedgradient {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
     }
     @keyframes chay{
       0% {left: -40%;}
@@ -186,8 +180,5 @@
       90%{left: 2%;}
       100%{left: 0;}
     }
-    }
-    }
-    }
-    
+
     
