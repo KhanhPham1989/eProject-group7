@@ -417,21 +417,20 @@ footer .focus {
             
             $.getJSON("./JSON/data.json", function (items) {
                 data1 = items;
-
-            });
-            $.getJSON("./JSON/data1.json", function (items1) {
+                $.getJSON("./JSON/data1.json", function (items1) {
                 data2 = items1;
-
                 data = data2.concat(data1);
                 displayImages(data);
             });
+            });
+            
 
 
             $(".btn-top").click(function () {
 			$('body,html').animate({
 				scrollTop: 0
-			})
-		    })
+			});
+		    });
             // world
             $(".box").hide();
 
@@ -469,7 +468,7 @@ footer .focus {
 
                     subdata = (kats.length == 0) ? data2 : data2.filter(item => kats.search(item.kv) >= 0);
                     dat1 = subdata.concat(temp1);
-                    temp2 = subdata
+                    temp2 = subdata;
                     displayImages(dat1);
                 });
             });
@@ -502,7 +501,7 @@ footer .focus {
                     subdata = data1.filter(item => cats.search(item.z) >= 0);
                     dat2 = temp2.concat(subdata);
                     displayImages(dat2);
-                    temp1 = subdata
+                    temp1 = subdata;
                 }
                 $("input[id=chk2]").click(function () {
 
@@ -511,7 +510,7 @@ footer .focus {
                     subdata = (kats.length == 0) ? data1 : data1.filter(item => kats.search(item.kv) >= 0);
 
                     dat2 = temp2.concat(subdata);
-                    temp1 = subdata
+                    temp1 = subdata;
                     displayImages(dat2);
                 });
             });
@@ -521,7 +520,7 @@ footer .focus {
 
                 setModal(product[0])
                 $('#myModal').modal('show');
-            })
+            });
 
 
         });
@@ -544,7 +543,7 @@ footer .focus {
 
             $("#muse").html(s);
 
-        }
+        };
 
         function setModal(m) {
             let x = `
@@ -574,8 +573,8 @@ footer .focus {
                 </div>    
             `;
 
-            $('.modal-content').html(x)
-        }
+            $('.modal-content').html(x);
+        };
     </script>
 </body>
 
