@@ -74,7 +74,6 @@ div.card .card-body {
 .container-fluid #animation a{
 	width: 100%;
 	height: auto;
-	
 	position: relative;
 	animation-name: search;
 	animation-duration: 10s;
@@ -172,6 +171,60 @@ button{
 
 .conntainer-fluid padding pt-3{
 	padding-bottom: 30px;
+}
+.team {
+	padding: 50px;
+}
+.team-avartar {
+	margin: auto;
+	padding: auto;
+}
+#avartar {
+	position: absolute;
+}
+#avartar img {
+	height: 250px;
+	width: 300px;
+	border: 2px solid papayawhip;
+	border-radius: 10px;
+}
+#avartar-inf {
+	width: 300px;
+	height: 250px;
+	display: block;
+	line-height: 10px;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#avartar-inf .inf {
+	position: relative;
+	visibility: hidden;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 2s;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#avartar-inf:hover .inf {
+position: relative;
+width: 300px;
+height: 250px;
+visibility: visible;
+opacity: 5;
+cursor: pointer;
+line-height: 20px;
+font-weight:900;
+border-radius: 10px;
+}
+#avartar-inf .inf ul {
+	list-style-type: none;
+	float: left;
+	display: inline-flex;
+}
+#avartar-inf .inf ul li {
+	margin-left: 40px;
 }
 .fa-facebook {
 	color: #3c61af;
