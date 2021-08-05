@@ -1,9 +1,9 @@
-/* @import url(https://allfont.net/allfont.css?fonts=garamond); */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 html, body {
 	width: 100%;
 	height: 100%;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; 
 	font-size: 18px;
 	color: #222;
 	line-height: 25px;
@@ -17,10 +17,8 @@ h1, h2, h3, h4, h5{
 h1, h2, h3 {
 	text-shadow: 4px 4px 15px paleturquoise;
 	color: white;	
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
 .navbar {
 	background-color: rgba(79, 159, 161, 0.815) !important;
 	position: fixed;
@@ -32,9 +30,9 @@ h1, h2, h3 {
 	text-decoration: none;
 	margin: 0px 20px;
 	font-size: 20px;
-	text-indent: 1px;
-	
+	text-indent: 1px;	
 }
+
 .navbar li a:hover {
     color: rgb(221, 186, 109) !important;
 }
@@ -60,7 +58,7 @@ header #slides .carousel-inner{
 	height: 200px;
 }
 div.card h4 {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 	color: white;
 }
 div.card .card-body {
