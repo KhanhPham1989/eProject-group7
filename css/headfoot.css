@@ -1,0 +1,73 @@
+.navbar {
+	background-color: rgba(79, 159, 161, 0.815) !important;
+	position: fixed;
+	width: 100%;
+	
+}
+.navbar li a {
+    color: rgb(199, 196, 157) !important;
+	text-decoration: none;
+	margin: 0px 20px;
+	font-size: 20px;
+	text-indent: 1px;
+    
+	
+}
+
+.navbar li a:hover {
+    color: rgb(221, 186, 109) !important;
+}
+header nav img {
+	height: 90px;
+}
+.dropdown:hover{
+	cursor: pointer;
+}
+.dropdown li :hover {
+	background-color: aqua;
+}
+header #slides .carousel-inner{
+	height: 500px;
+}
+.carousel-inner img {
+	width: 100%;
+}
+
+footer>.conntainer-fluid pt-3{
+	padding-bottom: 30px;
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+	background-color: #af9f9f;
+	color: #d8caca;
+    width: 100% !important;
+    margin: auto !important;
+}
+
+footer h5 {
+    font-size: 1.3rem;
+	color: honeydew;
+	font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+footer p, footer i {
+	font-style: normal;
+	font-weight: bold;
+	color: lavender;
+}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+}
+.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+}
+footer .focus {
+	line-height: 50px;
+}
