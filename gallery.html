@@ -19,11 +19,15 @@
     <link rel="stylesheet" href="./css/galle.css">
     <link rel="stylesheet" href="./css/headfoot.css">
 
+    <!-- wow -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
 </head>
 
 <body style="background-image: url(./IMG/IMG-Nghia/world.png);background-blend-mode: difference;">
     <header>
-        <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top wow bounce">
             <div class="container-fluid">
                 <a class="navbar-branch" href="#">
                     <img src="./IMG/logo-comment/logo.png" alt="none">
@@ -82,7 +86,7 @@
 
     </section>
     <!-- footer -->
-    <footer>
+    <footer class="wow slideInUp" data-wow-offset="20">
         <div class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4" style="line-height: 50px;">
@@ -138,6 +142,8 @@
     <!-- end Modal -->
 
     <script>
+        type="text/javascript">
+        new WOW().init();
         let data = [];
         let itemsPerPage = 16;
         let page = 1;
@@ -194,7 +200,7 @@
             let stopItem = startItem + itemsPerPage;
 
             for (let i = startItem; i < stopItem; i++) {
-                s += `<div class="col-md-4 col-lg-3 divimage" data-id="${data[i].id}">
+                s += `<div class="col-md-4 col-lg-3 divimage wow slideInUp" data-id="${data[i].id}">
                         <img src="./IMG/IMG-Nghia\ 2/${data[i].pic}" alt="" class="image">
                     </div> `;
             };

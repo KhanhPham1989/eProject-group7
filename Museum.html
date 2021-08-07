@@ -19,36 +19,17 @@
     <link rel="stylesheet" href="./css/muse.css">
     <link rel="stylesheet" href="./css/headfoot.css">
 
-    <style>
-        #loading {
-  background-color:white;
-  position: fixed;
-  display: block;
-  top: 0;
-  bottom: 0;
-  z-index: 1000000;
-  opacity: 0.5;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
+    <!-- wow -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-#loading p {
-  margin: auto;
-  display: block;
-  top: calc(50% - 100px);
-  left: calc(50% - 10px);
-  position: absolute;
-  z-index: 999999;
-}
-    </style>
 
 </head>
 
 <body style="background-image: url(./IMG/IMG-Nghia/world.png);background-blend-mode: difference;">
     <header>
         <header>
-            <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top wow bounce">
                 <div class="container-fluid">
                     <a class="navbar-branch" href="#">
                         <img src="./IMG/logo-comment/logo.png" alt="none">
@@ -89,16 +70,13 @@
     <div class="hea"></div>
     <section>
         <div class="container-fluid padding">
-            <div id="loading" style="display:none">
-                <p>load</p>
-            </div>
 
             <div class="page-header">
                 <div id="animated">MUSEUMS</div>
             </div>
 
             <div class="row">
-                <div class="col-lg-2 cata">
+                <div class="col-lg-2 cata wow slideInLeft">
 
                     <div class="bo">
                         <span></span>
@@ -192,7 +170,7 @@
 
                 </div>
 
-                <div class="col-lg-10">
+                <div class="col-lg-10 wow slideInRight">
                     <div class="row" id="muse">
 
 
@@ -205,7 +183,7 @@
 
     </section>
     <!-- footer -->
-    <footer>
+    <footer class="wow slideInUp" data-wow-offset="20">
         <div class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4" style="line-height: 50px;">
@@ -261,14 +239,9 @@
     </div>
     <!-- end Modal -->
     <script>
+        type="text/javascript">
+        new WOW().init();
         $(document).ready(function () {
-
-            $(document).ajaxStart(function() {
-        $("#loading").show();
-    });
-    $(document).ajaxStop(function() {
-        $("#loading").hide();
-    });
             var data = [];
             var data1 = [];
             var data2 = [];
