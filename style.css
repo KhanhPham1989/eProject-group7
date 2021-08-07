@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Gamja+Flower);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 
 .f-grid {
     display: flex;
@@ -52,10 +52,12 @@ p {
 	min-height: 90px;
 }
 .navbar {
-	background-color: rgba(255, 255, 255, 0.9) !important;
-	position: fixed;
+	background-color: rgba(253, 1, 1, 0.726) !important;
+	position: fixed !important;
+	top: 0px;
+	left: 0px;
 	width: 100%;
-	font-family: 'Open Sans';
+	height: 100px;
 }
 .navbar li a {
     color: rgb(107, 15, 87) !important;
@@ -63,13 +65,16 @@ p {
 	
 }
 .navbar li a:hover {
-    color: rgb(14, 89, 187) !important;
+    color: rgb(185, 25, 150) !important;
 }
 .dropdown:hover{
 	cursor: pointer;
 }
 .carousel-inner img {
 	width: 100%;
+}
+.dropdown{
+	cursor: pointer;
 }
 .nav-item {
 	font-family: sans-serif;
@@ -232,4 +237,9 @@ hr.light {
 .full-page h3{
 	padding: 15pt 0 0 20px;
 	font-size: 28pt;
+}
+.full-width{
+	width: 100%;
+	clear: both;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

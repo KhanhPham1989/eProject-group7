@@ -10,27 +10,22 @@
 	margin: 0px 20px;
 	font-size: 20px;
 	text-indent: 1px;
-    
-	
+}
+.navbar-branch{
+	display: inline-block;
 }
 
 .navbar li a:hover {
     color: rgb(221, 186, 109) !important;
 }
-header nav img {
-	height: 90px;
+.navbar-branch img {
+	width: 120px;
 }
 .dropdown:hover{
 	cursor: pointer;
 }
 .dropdown li :hover {
 	background-color: aqua;
-}
-header #slides .carousel-inner{
-	height: 500px;
-}
-.carousel-inner img {
-	width: 100%;
 }
 
 footer>.conntainer-fluid pt-3{

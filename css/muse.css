@@ -2,12 +2,6 @@
     height: 8rem;
 }
 
-body {
-    background-image: url(./IMG/IMG-Nghia/world.png);
-    background-blend-mode: difference;
-}
-
-
 .page-header{
     margin-bottom: 20px;
 }
@@ -66,7 +60,7 @@ body {
 .checkbox input:checked+span{
     color: chocolate;
 }
-img {
+.modal-content img {
     width: 100%;
 }
 .modal-lg{
