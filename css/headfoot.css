@@ -1,11 +1,12 @@
 .navbar {
-	background-color: rgba(79, 159, 161, 0.815) !important;
+	background-color: lightgrey !important;
+	opacity: 0.85;
 	position: fixed;
 	width: 100%;
 	
 }
 .navbar li a {
-    color: rgb(199, 196, 157) !important;
+    color: rgb(172, 168, 111)!important;
 	text-decoration: none;
 	margin: 0px 20px;
 	font-size: 20px;
@@ -21,12 +22,13 @@
 .navbar-branch img {
 	width: 120px;
 }
+.dropdown-menu{
+	background-color: lightgrey !important;
+}
 .dropdown:hover{
 	cursor: pointer;
 }
-.dropdown li :hover {
-	background-color: aqua;
-}
+
 
 footer>.conntainer-fluid pt-3{
 	padding-bottom: 30px;
