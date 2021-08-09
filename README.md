@@ -7,14 +7,13 @@ CENTER NAME: ACE-HCMC-2-FPT
 Project title: 
 
 ========> Group 7 <=========
+
 3 collaborators: 
 
-                 Nguyen Quoc Khanh
-
-                 Nguyen Van Hung
-                 
-                 Truong Thanh Nghia
-                 
+      Nguen Quoc Khanh
+      Nguyen Van Hung
+      Truong Thanh Nghia
+      
 ============================
 
 github report link:
