@@ -23,10 +23,9 @@ html, body {
 	font-size: 20px;
 	color: #222;
 	line-height: 25px;
-	background-color: rgb(236, 235, 230);
+	background-color: rgb(235, 235, 235);
 	
-	/* scroll-behavior: smooth; */
-	background-image: linear-gradient(rgb(222, 222, 222), rgb(222, 222, 222));
+
 }
 h1, h2, h3, h4, h5{
 	text-transform: uppercase;
@@ -49,11 +48,8 @@ h3{
 p {
 	text-align: justify;
 }
-.card {
-	min-height: 90px;
-}
 .navbar {
-	background-color: rgba(253, 1, 1, 0.726) !important;
+	background-color: #fff;
 	position: fixed !important;
 	top: 0px;
 	left: 0px;
@@ -200,6 +196,9 @@ footer {
     width: 100% !important;
     margin: auto !important;
 }
+header {
+	background-color: rgb(255, 255, 255);
+}
 hr.light {
 	border-top: 1px solid #d5d5d5;
 	width: 75%;
@@ -226,6 +225,9 @@ hr.light {
 	max-width: 1200px;
 	padding: 20px;
 }
+.full-page br{
+	background-color: rgb(255, 255, 255);
+}
 .full-page h1{
 	padding: 50pt 0px 20px 20px;
 	text-align: center;
@@ -243,4 +245,7 @@ hr.light {
 	width: 100%;
 	clear: both;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-md-30 {
+	width: 30% !important;
 }
