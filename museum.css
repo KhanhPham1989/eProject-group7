@@ -29,6 +29,9 @@ h1, h2, h3 {
 	font-size: 20px;
 	text-indent: 1px;	
 }
+.navbar li a span{
+	font-family: 'Open Sans', serif;
+}
 
 .navbar li a:hover {
     color: rgb(221, 186, 109) !important;
@@ -185,7 +188,7 @@ button{
 	height: 250px;
 	width: 300px;
 	border: 2px solid papayawhip;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 #avartar-inf {
 	width: 300px;
@@ -208,9 +211,8 @@ button{
 
 #avartar-inf:hover .inf {
 position: relative;
-width: 300px;
 height: 250px;
-visibility: visible;
+visibility: visible; 
 opacity: 5;
 cursor: pointer;
 line-height: 20px;
@@ -300,8 +302,9 @@ footer .focus {
 	flex-direction: column;
 }
 .container .post{
+	
 	display: none;
-	z-index: 5;
+	z-index: 1;
 }
 .container .text{
 	font-size: 25px;
@@ -424,11 +427,12 @@ form .btn button:hover{
 .container3{
 	border: 2px solid palegoldenrod;
 	border-radius: 10px;
-	background: white;
-	margin: 10px 100px;
+	background: rgb(241, 235, 235);
+	margin: auto;
+	padding: auto;
 }
 .container3 .row{
-	padding: 10px 0px;
+	padding: 10px 100px;
 }
 
 .row {
@@ -440,10 +444,13 @@ form .btn button:hover{
 	transform: translateX(-150px); */
 	list-style-type: none;
 	margin-top: 5px;
-	margin-left: 5px;
+	margin-left: 20px;
 	font-size: 15px !important;
 	line-height: 8px !important;
-	
+}
+.row .col ul li span{
+	display: inline-block;
+	padding: 5px 0px;
 }
 button{
 	padding: 6px;
