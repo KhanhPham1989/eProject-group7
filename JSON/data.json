@@ -1,6 +1,7 @@
 [
     {
         "ten":"History museum","kv":"nam","pic":"1.png","z":"vn","ida":"c1",
+        "addr":"2 Nguyen Binh Khiem Street, Ben Nghe Ward, District 1, Ho Chi Minh city, VietNam",
         "file":"7.pdf",
         "nd":"<b>1929</b>, History Museum in Ho Chi Minh City is a large museum and has a long history of development in South Vietnam. Located in the heart of the city, the Museum is a popular destination for both domestic and international visitors.<br> History Museum in Ho Chi Minh City was formerly the Museum of Blanchard de la Brosse (a name of governor in the South of Vietnam) founded in 1929 and the first museum in South Vietnam.<br> From 1956, the museum was named \"Vietnam National Museum\" in Saigon, which showcases ancient art in some Asian countries.",
         "pic1":"13.png",
@@ -10,6 +11,7 @@
     },
     {
         "ten":"Vietnam Fine Arts Museum","kv":"bac","pic":"2.png","z":"vn","ida":"c2",
+        "addr":"66 Nguyen Thai Hoc Street, Dien Bien Ward, Ba Dinh District, Hanoi Capital, VietNam ",
         "file":"2.pdf",
         "nd":"<b>T</b>he Vietnam National Fine Arts Museum is located at 66 Nguyen Thai Hoc Street, Hanoi. <br>The Museum draws a large number of national and international visitors not only by quality of the collections, but also by the artistic architecture of the historic building. The Museum’s building was constructed during the French colonial period. It was originally a boarding school for daughters of French officials. In 1962, the Vietnamese Government ordered the Ministry of Culture to transform this building into a place to collect, exhibit and preserve the precious and special works of art of Vietnam from the prehistoric time until present days. The building was renovated and Vietnamese architectural elements were added, making it a building suitable for an art museum.",
         "pic1":"4.png",
@@ -19,6 +21,7 @@
     },
     {
         "ten":"Ho Chi Minh Museum (Dragon Wharf)","kv":"nam","pic":"3.png","z":"vn","ida":"c3",
+        "addr":"1 Nguyen Tat Thanh Street, Ward 12, District 4, Ho Chi Minh city, VietNam ",
         "file":"9.pdf",
         "nd":"<b>T</b>he museum is located in the house that was formerly the headquarters of the Emperor Transport Corporation (Messageries Impériales) - one of the first companies built by the French colonialists after using Saigon. <br>The house was built in the middle of 1862 and completed in 1863 with Western architecture, but on the roof, two dragons are attached to the moon according to the motif of \"Two dragons adoring the moon\" - a kind of decoration familiar with Vietnamese temples. With that unique architecture, the headquarters of the Emperor Transport Corporation (Hotel des Messageries Impériales) is also known as Nha Rong and the harbor is also called Nha Rong Wharf. In 1870, the Imperial Shipping Company (Hotel des Messageries Impériales) changed to the Maritime Shipping company (Messageries Maritimes) but the mission and scope of activities remained unchanged. The company replaced the moon on the roof with the company's logo, which is: crown, anchor and horse's head; precisely because that company is called Head Horse.",
         "pic1":"17.png",
@@ -28,6 +31,7 @@
     },
     {
         "ten":"Museum of Ho Chi Minh city","kv":"nam","pic":"4.png","z":"vn","ida":"c4",
+        "addr":"65 Ly Tu Trong Street, District 1, Ho Chi Minh city, VietNam ",
         "file":"10.pdf",
         "nd":"<b>T</b>he building of Ho Chi Minh city museum located at 65 No Ly Tu Trong street, large of 2 ha square, bound by  Ly Tu Trong – Pasteur – Le Thanh Ton – Nam Ky Khoi Nghia streets.<br>The building was built in 1885 – 1890, designed by the French architect Foulhoux was built between 1885 – 1890. It was designed by Alfred Foulhoux, a French architect, blending the Occidental style with Oriental style. The building was originally intended for use as the Commercial museum exhibiting native specialities, but it became the Cochinchina governor’s palace.",
         "pic1":"19.png",
@@ -37,6 +41,7 @@
     },
     {
         "ten":"Hue Museum of Royal Antiquities","kv":"trung","pic":"5.png","z":"vn","ida":"c5",
+        "addr":"03 Le Truc Street, Thuan Thanh Ward, Hue City, Thua Thien Hue Province, VietNam ",
         "file":"6.pdf",
         "nd":"<b>T</b>his is the earliest museum established in Hue (1923), with the first name being Musée Khai Dinh. After that, this museum was renamed many times: Hue Museum of Antiquities (1947), Hue Museum (1958), Gallery of Antiquities (1979), Hue Museum of Antiquities (1992), Royal Fine Arts Museum Hue (1992).<br>The museum's campus is 6,330 square meters, the main building in the middle is 1,185 square meters and some outbuildings are used as treasures of antiquities and gardens.",
         "pic1":"11.png",
@@ -46,6 +51,7 @@
     },
     {
         "ten":"War Remnants Museum","kv":"nam","pic":"6.png","z":"vn","ida":"c6",
+        "addr":"28 Vo Van Tan, Ward 6, District 3, Ho Chi Minh city, VietNam ",
         "file":"8.pdf",
         "nd":"<b>O</b>n August 31, 1858, the French attacked Da Nang, marking the beginning of their war of aggression and colonial rule in Vietnam. For nearly 100 years the Vietnamese people fought with great fortitude for national liberation. After the August Revolution, President Ho Chi Minh made a Declaration of Independence, putting an end to French colonialism and asserting Vietnam’s right to independence. But the French colonialists, and then American imperialists, persisted in their aggression and conspiracy to sustain foreign domination over and introduce neo-colonialism to Vietnam. For 30 years the Vietnamese people, courageous and strong, remained willing to sacrifices their lives for the sake of freedom. April 30, 1975 saw the overwhelming victory of the Vietnamese people, and the restoration of peace and the nation’s freedom, sovereignty and territorial integrity. ",
         "pic1":"15.png",
@@ -55,6 +61,7 @@
     },
     {
         "ten":"Da Nang Museum of Cham sculpture","kv":"trung","pic":"7.png","z":"vn","ida":"c7",
+        "addr":"2 September 2nd Street, Hai Chau district, Da Nang ",
         "file":"5.pdf",
         "nd":"<b>L</b>ocated in the heart of Da Nang city, the Da Nang Museum of Cham Sculpture is an indispensable stop for visitors on the journey to discover the heritage and cultural treasures in the Central and Central Highlands of Vietnam. The museum currently houses and displays the richest and most representative collection of religious sculptures of the ancient kingdom of Champa which has existed and flourished for decades with many heritages still remaining preserved, including the system of magnificent temples and other tangible and intangible cultural heritages.",
         "pic1":"9.png",
@@ -64,6 +71,7 @@
     },
     {
         "ten":"Museum of Ethnic Culture","kv":"bac","pic":"8.png","z":"vn","ida":"c8",
+        "addr":"Doi Can Street, Trung Vuong Ward, Thai Nguyen City, VietNam ",
         "file":"3.pdf",
         "nd":"<b>T</b>he Museum of the Cultures of Vietnam’s Ethnic Groups is in the center of Thái Nguyên City, about 80 km north of Hà Nội on National Highway 3. The Museum was built in 1960. At first it was named Việt Bắc Museum, with its functions and tasks of scientific research and educating the traditions of culture and revolutionary struggle history of ethnic groups in Việt Bắc. <br>In 1976, the Việt Bắc autonomous area was dissolved and the Việt Bắc Museum was handed over to Ministry of Culture and Information. Since then, the Museum has changed its activities from an integrated museum to the one specialized in ethnic cultures. At decision No. 508/QĐVH dated March 31, 1990 signed by Minister of Culture, it was renamed the Museum of the Cultures of Vietnam’s Ethnic Groups and became one of the seven national museums of Việt Nam.",
         "pic1":"5.png",
@@ -73,6 +81,7 @@
     },
     {
         "ten":"HaNoi Museum","kv":"bac","pic":"9.png","z":"vn","ida":"c9",
+        "addr":"Pham Hung Street, Me Tri Ward, Nam Tu Liem District, Hanoi Capital,VietNam ",
         "file":"1.pdf",
         "nd":"<b>O</b>n the occasion of the 1000th anniversary of Thang Long - Hanoi, the City Party Committee, the People's Council and the Human Resources Committee of Hanoi City were determined to direct the construction of the Hanoi Museum project and started construction on 19/02. 5/2008 at Pham Hung Street, Me Tri Ward, Nam Tu Liem District, Hanoi. On October 6, 2010, the building was inaugurated and put into operation to celebrate the 1,000th anniversary of Thang Long-Hanoi. The Hanoi Museum Building has 6 floors, of which 4 are floating floors and 2 basements. The shape of the building has an inverted architecture, the floating floor space is designed to open utilities for the author to construct the interior and arrange the sightseeing route. The first floor is open to 4 directions, has the effect of catching fresh air from 4 directions with the meaning of 4 directions converging to the Capital - Thang Long Land - Hanoi thousand years of civilization.<br> Hanoi Museum currently holds more than 70,000 documents and artifacts (data until June 2021) of many different materials, proving the history of thousands of years of Thang Long - Hanoi. A number of very valuable artifacts and collections are appreciated by the limited school: co-valued collections; collection includes porcelain; material collection ivory jade; collection of artifacts of the resistance revolution… Hanoi Museum has 4 artifacts/groups that are very valuable national items, including: The gray-blue glazed ceramic lampstand of the Mac dynasty of artisan Dang Huyen Thong; Bat Trang Long Communal House of Le Dynasty; Thanh Mai bronze bell; Co Loa bronze and copper plow set in Co Loa bronze drum.",
         "pic1":"1.png",
@@ -82,6 +91,7 @@
     },
     {
         "ten":"Alexandre Yersin Museum","kv":"trung","pic":"10.png","z":"vn","ida":"c10",
+        "addr":"10 Tran Phu Street, Nha Trang, VietNam ",
         "file":"4.pdf",
         "nd":"<b>O</b>unded in 1990, the Alexandre Yersin Museum is set within the late French bacteriologist’s home in Tran Phu Street, hosting extensive exhibits of his personal belongings and laboratory equipment, as well as original letters and photographs from his travels around Vietnam. It is located adjacent to the Pasteur Institute of Nha Trang, which is a 15-minute walk from Nha Trang City Centre.<br>Affectionately called Ong Nam by locals, some of his vital contributions to Vietnam include the founding of Dalat, discovery of a vital plague-causing bacterium, and research on agricultural methods and meteorological forecasting. In 1895, he also founded Vietnam’s Pasteur Institutes, which are located in Nha Trang, Dalat, and Ho Chi Minh City. The establishments produce vaccines, coordinate vaccination and hygiene programs within the country, and also carry out medical research and testing according to European standards.",
         "pic1":"7.png",

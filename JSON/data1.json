@@ -1,6 +1,7 @@
 [
     {
         "ten":"British Museum","kv":"au","pic":"11.png","z":"wor","ida":"c11",
+        "addr":"Great Russell Street, London WC1B 3DG, England, United Kingdom ",
         "file":"18.pdf",
         "nd":" <b>T</b>he British Museum was founded in 1753 and opened its doors in 1759. It was the first national museum to cover all fields of human knowledge, open to visitors from across the world.<br>Enlightenment ideals and values – critical scrutiny of all assumptions, open debate, scientific research, progress and tolerance – have marked the Museum since its foundation.<br>The Museum is driven by an insatiable curiosity for the world, a deep belief in objects as reliable witnesses and documents of human history, sound research, as well as the desire to expand and share knowledge.",
         "pic1":"35.png",
@@ -10,6 +11,7 @@
     },
     {
         "ten":"American Museum of Natural History","kv":"my","pic":"12.png","z":"wor","ida":"c12",
+        "addr":"200 Central Park West, New York, NY 10024 United States ",
         "file":"12.pdf",
         "nd":" <b>T</b>he American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions.<br>Since its founding in 1869, the Museum has advanced its global mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition.<br>The Museum is renowned for its exhibitions and scientific collections, which serve as a field guide to the entire planet and present a panorama of the world's cultures.",
         "pic1":"25.png",
@@ -19,6 +21,7 @@
     },
     {
         "ten":"National Air and Space Museum","kv":"my","pic":"13.png","z":"wor","ida":"c13",
+        "addr":"655 Jefferson Drive, SW Washington, DC ",
         "file":"17.pdf",
         "nd":" <b>T</b>he Smithsonian's National Air and Space Museum maintains the world's largest and most significant collection of aviation and space artifacts, encompassing all aspects of human flight, as well as related works of art and archival materials. It operates two landmark facilities that, together, welcome more than eight million visitors a year, making it the most visited museum in the country. It also is home to the Center for Earth and Planetary Studies.",
         "pic1":"33.png",
@@ -28,6 +31,7 @@
     },
     {
         "ten":"Louvre Museum","kv":"au","pic":"14.png","z":"wor","ida":"c14",
+        "addr":"Musée du Louvre, 75001 Paris, France ",
         "file":"14.pdf",
         "nd":" <b>T</b>he Louvre is the world's largest museum and houses one of the most impressive art collections in history. The magnificent, baroque-style palace and museum — LeMusée du Louvre in French — sits along the banks of the Seine River in Paris. It is one of the city's biggest tourist attractions.<br>The Louvre was originally built as a fortress in 1190, but was reconstructed in the 16th century to serve as a royal palace. \"Like many buildings, it was built and rebuilt over the years,\" said Tea Gudek Snajdar, an Amsterdam-based art historian, museum docent and a blogger at Culture Tourist.<br>During its time as a royal residence, the Louvre saw tremendous growth. Nearly every monarch expanded it, according to History.com. Today, it covers a total area of 652,300 square feet (60,600 square meters). In 1682, Louis XIV moved the royal residence to Versailles, and the Louvre became home to various art academies, offering regular exhibitions of its members' works.  ",
         "pic1":"21.png",
@@ -37,6 +41,7 @@
     },
     {
         "ten":"Kerala Folklore Museum","kv":"aa","pic":"15.png","z":"wor","ida":"c15",
+        "addr":"Near, 2059C No 26 Pandit Karuppan Road, Thevara Ferry Road, Junction, Kochi, Kerala 682013, India ",
         "file":"11.pdf",
         "nd":" <b>K</b>erala Folklore Museum is the only architectural museum in Kerala with the essence of the life and culture of the common man over the past 1000 years. It is also a cultural hub which contains :-‘Face Art Gallery’- for Art & Antiques.",
         "pic1":"23.png",
@@ -46,6 +51,7 @@
     },
     {
         "ten":"Apartheid Museum","kv":"phi","pic":"16.png","z":"wor","ida":"c16",
+        "addr":"Northern Parkway & Gold Reef Road Ormonde, 2001 Johannesburg, South Africa ",
         "file":"16.pdf",
         "nd":" <b>T</b>he Apartheid Museum opened in 2001 and is acknowledged as the pre-eminent museum in the world dealing with 20th century South Africa, at the heart of which is the apartheid story.<br>The Apartheid Museum, the first of its kind, illustrates the rise and fall of apartheid.<br>An architectural consortium, comprising several leading architectural firms, conceptualised the design of the building on a seven-hectare stand. The museum is a superb example of design, space and landscape offering the international community a unique South African experience.<br>The exhibits have been assembled and organised by a multi-disciplinary team of curators, film-makers, historians and designers. They include provocative film footage, photographs, text panels and artefacts illustrating the events and human stories that are part of the horrific period in our history, known as apartheid.",
         "pic1":"31.png",
@@ -55,6 +61,7 @@
     },
     {
         "ten":"Van Gogh Museum","kv":"au","pic":"17.png","z":"wor","ida":"c17",
+        "addr":"Paulus Potterstraat 7 Amsterdam, Netherlands ",
         "file":"15.pdf",
         "nd":" <b>T</b>he Van Gogh Museum is a Dutch art museum dedicated to the works of Vincent van Gogh and his contemporaries in the Museum Square in Amsterdam South, close to the Stedelijk Museum, the Rijksmuseum, and the Concertgebouw. ",
         "pic1":"29.png",
@@ -64,6 +71,7 @@
     },
     {
         "ten":"Egyptian Museum","kv":"phi","pic":"18.png","z":"wor","ida":"c18",
+        "addr":"Zamalek head office 3 El Adel Abou Bakr St., Zamalek , Cairo",
         "file":"19.pdf",
         "nd":" <b>T</b>he Museum of Egyptian Antiquities, known commonly as the Egyptian Museum or the Cairo Museum , in Cairo, Egypt, is home to an extensive collection of ancient Egyptian antiquities. It has 120,000 items, with a representative amount on display and the remainder in storerooms. Built in 1901 by the Italian construction company, Garozzo-Zaffarani, to a design by the French architect Marcel Dourgnon, the edifice is one of the largest museums in the region. As of March 2019, the museum was open to the public. In 2021, the museum is due to be superseded by the newer and larger Grand Egyptian Museum at Giza.<br>The Egyptian Museum of Antiquities contains many important pieces of ancient Egyptian history. It houses the world's largest collection of Pharaonic antiquities. The Egyptian government established the museum built in 1835 near the Ezbekieh Garden and later moved to the Cairo Citadel. In 1855, Archduke Maximilian of Austria was given all of the artifacts by the Egyptian government; these are now in the Kunsthistorisches Museum, Vienna.",
         "pic1":"37.png",
@@ -73,6 +81,7 @@
     },
     {
         "ten":"Indian Museum Kolkata","kv":"aa","pic":"20.png","z":"wor","ida":"c20",
+        "addr":"27, Jawaharlal Nehru Rd, Fire Brigade Head Quarter, New Market Area, Dharmatala, Taltala, Kolkata, West Bengal 700016, Idia ",
         "file":"20.pdf",
         "nd":"<b>T</b>he history of the origin and the growth of the Indian Museum is one of the remarkable events towards the development of heritage and culture of India.Founded in 1814 at the cradle of the Asiatic Society of Bengal (at the present building of the Asiatic Society, 1 Park Street, Kolkata), Indian Museum is the earliest and the largest multipurpose Museum not only in the Indian subcontinent but also in the Asia-Pacific region of the world.<br>The movement, which was started in 1814, in fact was the beginning of a significant epoch initiating the socio-cultural and scientific achievements of the country. It is otherwise considered as the beginning of the modernity and the end of mediaeval era.<br>With the foundation of Indian Museum in 1814, the Museum movement started rolling in India and through the years from then, got a new fillip and great momentum. Since then, it has so magnificently developed and culminated into the fruitful existence of more than 400 museums in the country.<br>To appreciate the history of the origin and growth of the Indian Museum we are to travel back to the last quarter of the 18th century when Sir William Jones a profound scholar devoted his life to the service of India, founded the Asiatic Society in 1784 in Kolkata.<br>The role of the Asiatic Society was to form a learning centre for the development of art and culture pertaining to the socio-cultural activities, entertaining people, disseminating knowledge and preserving the cultural as well as natural heritage of mankind for posterity within the geographical limits of Asia.<br>Sir William Jones, the founder of the Asiatic Society, however, in his inaugural address did not refer to the foundation of a museum as part of the activities of the society.<br>In 1796 the members of the Asiatic Society conceived an idea of establishing a Museum at a suitable place for the reception and preservation of the objects whatever it is performed by man or produced by nature.<br>The idea got shape in the beginning of 1808 when society found itself in a position to occupy its premises erected at the corner of Park Street on a land granted by the Government.",
         "pic1":"39.png",
@@ -82,6 +91,7 @@
     },
     {
         "ten":"Australian Museum","kv":"uc","pic":"19.png","z":"wor","ida":"c19",
+        "addr":"1 William Street, Sydney NSW 2010 Australia ",
         "file":"13.pdf",
         "nd":" <b>A</b>ustralia’s first public museum was established in Sydney in 1827 with the aim of procuring \"many rare and curious specimens of Natural History.\"<br>In 1829 William Holmes was appointed the first custodian of the fledgling collection, then located in the old post office building in Macquarie Place. Initially known as the Sydney Museum or Colonial Museum, the institution was formally named the Australian Museum in 1836. It was also stipulated that the Museum and Botanic Gardens be jointly governed by a ‘Committee of Superintendence’ made up of eminent men of the colony",
         "pic1":"27.png",

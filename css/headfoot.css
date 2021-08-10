@@ -4,13 +4,18 @@
 	position: fixed;
 	width: 100%;
 	
+	
 }
 .navbar li a {
     color: rgb(172, 168, 111)!important;
 	text-decoration: none;
 	margin: 0px 20px;
-	font-size: 20px;
+	font-size: 21px;
 	text-indent: 1px;
+}
+.navbar span{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
 }
 .navbar-branch{
 	display: inline-block;
