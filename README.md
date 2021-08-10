@@ -4,7 +4,7 @@ Batch no.: T1.2104.E0
 
 CENTER NAME: ACE-HCMC-2-FPT
 
-Project title: 
+Project title: Historical-Monuments
 
 ========> Group 7 <=========
 
