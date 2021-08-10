@@ -10,13 +10,13 @@ Project title:
 
 3 collaborators: 
 
-      Nguen Quoc Khanh
-      Nguyen Van Hung
-      Truong Thanh Nghia
+      Pham Quoc Khanh	  - Student1316207
+      Nguyen Van Hung	  - Student1309635
+      Truong Thanh Nghia  - Student1316198 
       
 ============================
 
-github report link:
+github report link: https://github.com/KhanhPham1989/eProject-group7/tree/main/Document
 
 ============================
 
