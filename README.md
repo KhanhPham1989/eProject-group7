@@ -10,9 +10,9 @@ Project title:
 
 3 collaborators: 
 
-      Pham Quoc Khanh	  - Student1316207
-      Nguyen Van Hung	  - Student1309635
-      Truong Thanh Nghia  - Student1316198 
+      Pham Quoc Khanh         - Student1316207
+      Nguyen Van Hung         - Student1309635
+      Truong Thanh Nghia      - Student1316198 
       
 ============================
 
