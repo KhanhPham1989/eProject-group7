@@ -4,15 +4,15 @@ Batch no.: T1.2104.E0
 
 CENTER NAME: ACE-HCMC-2-FPT
 
-Project title: 
+Project title: Historical-Monuments
 
 ========> Group 7 <=========
 
 3 collaborators: 
 
-      Pham Quoc Khanh	  - Student1316207
-      Nguyen Van Hung	  - Student1309635
-      Truong Thanh Nghia  - Student1316198 
+      Pham Quoc Khanh         - Student1316207
+      Nguyen Van Hung         - Student1309635
+      Truong Thanh Nghia      - Student1316198 
       
 ============================
 
