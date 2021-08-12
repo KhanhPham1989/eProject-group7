@@ -1,8 +1,13 @@
 
 .hea {
-    height: 8rem;
+    height: 6.5rem;
 }
-
+.carousel img{
+    width: 100%;
+}
+.heaa {
+    height: 2rem;
+}
 .image {
     width: 100%;
     /* padding: 1.5rem; */
