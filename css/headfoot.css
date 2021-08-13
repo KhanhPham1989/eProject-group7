@@ -6,6 +6,9 @@
 	
 	
 }
+.navbar:hover {
+	opacity: 1;	
+}
 .navbar li a {
     color: rgb(172, 168, 111)!important;
 	text-decoration: none;
