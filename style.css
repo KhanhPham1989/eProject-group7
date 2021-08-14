@@ -171,8 +171,8 @@ p {
   from {background-color:lightcoral;}
   to {background-color: aquamarine;}
 }
-.col-md-3 img {
-	height: 200px;
+.col-md-3 #slides .carousel-inner {
+	height: 250px !important;
 }
 div.card .card-body {
 	background-color: rgb(223, 207, 207);
