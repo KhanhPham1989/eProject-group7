@@ -171,6 +171,21 @@ p {
   from {background-color:lightcoral;}
   to {background-color: aquamarine;}
 }
+div.card .card-body {
+	background-color: rgb(223, 207, 207);
+	height: 180px;
+	position: relative;
+	align-self: auto;	
+}
+div.card .card-body h4 {
+	font-size: 25px !important;
+}
+
+div.card .card-body a {
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+}
 
 .conntainer-fluid padding pt-3{
 	padding-bottom: 30px;
