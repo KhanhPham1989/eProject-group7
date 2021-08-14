@@ -134,6 +134,7 @@ div.card .card-body a {
   }
 .in {
 	position: relative;
+	display: inline-block;
 	animation-name: more ;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
@@ -155,7 +156,11 @@ iframe{
 	width: 100%;
 }
 .get{
-	margin: 2rem;
+	margin: 2rem 2rem 2rem 6rem;
+}
+.contact{
+	padding-left: 4rem;
+	padding-right: 0;
 }
 .geth div{
 	margin-bottom: 1rem;
@@ -197,6 +202,10 @@ button{
 .team {
 	padding: 50px;
 }
+.team-7{
+	display: flex;
+	justify-content:center; 
+}
 .team-avartar {
 	margin: auto;
 	padding: auto;
@@ -237,7 +246,7 @@ opacity: 5;
 cursor: pointer;
 line-height: 20px;
 font-weight:900;
-border-radius: 10px;
+border-radius: 20px;
 }
 #avartar-inf .inf ul {
 	list-style-type: none;

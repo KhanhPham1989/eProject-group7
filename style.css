@@ -264,3 +264,6 @@ hr.light {
 .col-md-30 {
 	width: 30% !important;
 }
+.col-md-4 {
+	padding: 20px;
+}
