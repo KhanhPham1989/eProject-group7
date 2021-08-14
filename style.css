@@ -171,6 +171,9 @@ p {
   from {background-color:lightcoral;}
   to {background-color: aquamarine;}
 }
+.col-md-3 img {
+	height: 200px;
+}
 div.card .card-body {
 	background-color: rgb(223, 207, 207);
 	height: 180px;
@@ -263,7 +266,5 @@ hr.light {
 }
 .col-md-30 {
 	width: 30% !important;
-}
-.col-md-4 {
-	padding: 20px;
+
 }
